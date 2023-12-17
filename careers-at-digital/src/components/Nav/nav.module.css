@@ -15,6 +15,11 @@
     .navbar-expand-sm .navbar-toggler {
       display:block;
     }
+
+    #Container{
+    width: 375px;
+    overflow-x: hidden;
+    }
    
   }
 
