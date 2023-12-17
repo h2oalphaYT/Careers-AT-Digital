@@ -27,15 +27,13 @@
     line-height: 100%;
 }
 
-.weCrushYourCompetitorsGoaParent {
+  .weCrushYourCompetitorsGoaParent {
     display: flex;
     align-items: flex-start;
     justify-content: flex-start;
     color: var(--color-white);
-  }
-
-  .weCrushYourCompetitorsGoaParent {
-    position: absolute;
+    position: relative;
+    top: 394px;
     bottom: 40px;
     left: 80px;
     background: linear-gradient(256.73deg, #1cbddd 27.86%, #4dca79), #fff;
