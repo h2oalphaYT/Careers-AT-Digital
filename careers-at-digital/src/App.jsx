@@ -1,6 +1,6 @@
 
 import styles from './App.module.css'
-import Navigation from './components/Nav/Nav'
+import Navigation from './components/Nav/nav'
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { Hero } from './components/hero/hero';
 import { LeftBody } from './components/BodyLeft/bodyleft';
