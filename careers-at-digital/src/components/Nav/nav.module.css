@@ -1,7 +1,7 @@
 @import "../../vars.css";
 
 
-@media (max-width: 375px) {
+@media screen and  (max-width: 375px) {
     .navbar-expand-sm {
       flex-wrap: nowrap;
       justify-content: space-between;
@@ -27,6 +27,7 @@
 
 .navlink {
     color: var( --color-white) !important;
+    
   }
 
 
