@@ -68,6 +68,66 @@
 
   }
 
+  @media screen and (min-width : 1440px){
+
+    .image2Parent {
+     
+      position: absolute;
+      top: 960px;
+      left: 288px;
+      flex-direction: row;
+      align-items: center;
+      gap: var(--gap-89xl);
+      color: var(--color-darkorchid);
+    } 
+    .image2Icon {
+      position: relative;
+      width: 514px;
+      height: 514px;
+      object-fit: cover;
+    }
+
+    .frameParent,
+.button1{
+    display: flex;
+    justify-content: flex-start;
+  }
+
+  .frameParent {
+    width: 742px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: var(--gap-xl);
+  }
+
+  .webMobileAppDevelopmentWrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    font-family: var(--poppins-h3-poppins-27px-semibold);
+  }
+
+  .webMobile {
+    position: relative;
+    letter-spacing: 0.4px;
+    line-height: 33px;
+    font-weight: 600;
+    display: inline-block;
+    width: 100%;
+    font-size: 27px;
+  }
+
+  .yourWebAnd {
+    align-self: stretch;
+    position: relative;
+    font-size: var(--font-size-base);
+    color: black;
+    font-size: 16px;
+  }
+
+  }
+
   @media screen and (max-width : 768px) {
 
     .image2Parent{

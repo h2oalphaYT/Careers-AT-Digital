@@ -57,6 +57,56 @@
     height: 416px;
     object-fit: cover;
   }
+
+  @media screen and (min-width : 1440px){
+
+    .frameParent {
+      width: 742px;
+      flex-direction: column;
+      align-items: flex-start;
+      gap: var(--gap-xl);
+    }
+
+    .frameGroup {
+      position: absolute;
+      top: 1490px;
+      left: 438px;
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: flex-start;
+      gap: var(--gap-89xl);
+      color: var(--color-darkorchid);
+    }
+
+    .image1Icon {
+      position: relative;
+      width: 514px;
+      height: 514px;
+      object-fit: cover;
+    }
+
+    .webMobileAppDevelopmentWrapper {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      justify-content: flex-start;
+      font-family: var(--poppins-h3-poppins-27px-semibold);
+    }
+
+    .webMobile {
+      position: relative;
+      font-size: 27px;
+      letter-spacing: 0.4px;
+      line-height: 33px;
+      font-weight: 600;
+      display: inline-block;
+      width: 100%;
+    }
+
+
+
+  }
   @media screen and (max-width : 1200px) {
 
     .frameGroup{

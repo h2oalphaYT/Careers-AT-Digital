@@ -8,9 +8,9 @@ import { getImageUrl } from "../../utils";
 function Navigation() {
   return (
     <>
-      <Navbar id="container" className="navbar navbar-light fixed-top" style={{ backgroundColor: "#6b3cc9"}} expand="sm">
+      <Navbar id={styles.Container} className="navbar navbar-light fixed-top" style={{ backgroundColor: "#6b3cc9" }} expand="sm">
         
-        <Container style={{ maxWidth: '1440px'}}>
+        <Container>
           <Navbar.Brand href="#home"><img className={styles.logoIcon} alt="logo image" src={getImageUrl("Nav/Logo.png")} /></Navbar.Brand>
           <Navbar.Toggle aria-controls="basic-navbar-nav" className={styles.navbarTogglerIcon} />
           <Navbar.Collapse id="basic-navbar-nav">

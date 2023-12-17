@@ -44,6 +44,39 @@
     gap: var(--gap-xl);
   }
 
+  @media screen and (min-width : 1440px){
+
+    .container{
+      position: absolute;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      overflow: hidden;
+      font-size: 48px;
+      font-weight: 700;
+      
+  }
+
+  .weCrushYourCompetitorsGoaParent {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    color: var(--color-white);
+    position: relative;
+    top: 494px;
+    bottom: 40px;
+    left: 80px;
+    background: linear-gradient(256.73deg, #1cbddd 27.86%, #4dca79), #fff;
+    width: 630px;
+    flex-direction: column;
+    padding: 24px var(--padding-21xl) 32px;
+    box-sizing: border-box;
+    gap: var(--gap-xl);
+  }
+ 
+  
+  }
+
 
 
 @media screen and (max-width: 1200px) {
